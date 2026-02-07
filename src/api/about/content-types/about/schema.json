@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "introText": {
+      "type": "blocks"
+    },
+    "portrait": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "goalTextheadline": {
+      "type": "string"
+    },
+    "goalText": {
+      "type": "blocks"
+    },
+    "reflectionHeadline": {
+      "type": "string"
+    }
+  }
+}
